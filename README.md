@@ -10,7 +10,7 @@ This monitoring system is set test and alert on two test use cases:
 2. In the root folder, create a virtualenv: `virtualenv -p python3.7 venv`
 3. Activate the virtualenv: `. /venv/bin/activate`
 4. Install the requirements: `pip install -r requirements.txt`
-5. Run the program: `python blackbox-monitoring.py`
+5. Run the program: `python blackbox_monitoring.py`
 * Notice the default config file has 4 tests cases (2 successful and 2 failures)
 
 ## Inputs
