@@ -1,0 +1,9 @@
+# virtualenv
+/venv/
+
+# IDE
+/.DS_Store/
+/.idea/
+
+# Python
+__pycache__/

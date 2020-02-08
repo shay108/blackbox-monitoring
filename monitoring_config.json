@@ -1,0 +1,26 @@
+[
+  {
+    "testId": "001",
+    "testType": "connectivity",
+    "endpoint": "https://www.amazon.com"
+  },
+  {
+    "testId": "002",
+    "testType": "latency",
+    "method": "GET",
+    "endpoint": "https://www.google.com",
+    "alertThreshold": 500
+  },
+    {
+    "testId": "003",
+    "testType": "connectivity",
+    "endpoint": "https://www.ibm.com/myfiles"
+  },
+  {
+    "testId": "004",
+    "testType": "latency",
+    "method": "GET",
+    "endpoint": "https://www.microsoft.com",
+    "alertThreshold": 20
+  }
+]
