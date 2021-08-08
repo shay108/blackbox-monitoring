@@ -1,7 +1,7 @@
 # Blackbox Monitoring Project
 
 ## General
-This monitoring system is set test and alert on two test use cases:
+This monitoring system is set to test and alert on two test use cases:
 1. Basic boolean connectivity test
 2. Basic latency test (**whether the request succeeded or not**)
 
