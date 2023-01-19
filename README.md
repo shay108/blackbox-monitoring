@@ -26,7 +26,7 @@ In case `testType` = "latency", two additional fields are mandatory:
 
 ## Process
 The program loops over the test cases in the config file and performs the required test. If an error is found, a `send_alert` function is called with the alert/error message.
-At the moment, the alert sending process is simply writing the to stdout.
+At the moment, the alert sending process is simply writing the error to stdout.
 
 ## Architecture
 The system is designed to run in a Serverless function (e.g. Lambda), triggered via a cronjob.
